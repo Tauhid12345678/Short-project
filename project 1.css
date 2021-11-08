@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 800px;
+    height: 400px;
+    background-image:url(https://cdn.lynda.com/course/435537/435537-636167165548810481-16x9.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.buttons{
+    width: 260px;
+    margin-top: 130px;
+}
+
+.about-section{
+    width: 800px;
+    height: 300px;
+    background-color:grey;
+}
+.about-section h5{
+    border-bottom: 3px solid white;
+}
+
+.heading{
+    padding-top: 20px;
+    width: 130px;
+    height: 70px;
+}
+
+.logo img{
+    width: 280px;
+    height: 150px;
+    box-shadow:0px 10px 30px 0px blanchedalmond
+}
+.text p{
+    font-size: 12px;
+}
+.text h3{
+    border-bottom: 2px solid white;
+}
+.navbar-nav .nav-item .nav-link:hover {
+        background-color: dodgerblue;
+}
+.service-section{
+    width: 800px;
+    height: 400px;
+    background-color: darkgray;
+}
+.full-service{
+    width: 630px;
+}
+
+
+.service-section h4{
+    width: 130px;
+    border-bottom: 3px solid white;
+}
+    
+.service{
+    width: 180px;
+    height: 150px;
+    border: 1px solid white;
+}
+.service p{
+    font-size: 8px;
+}
+.icon i{
+    font-size: 35px;
+    color: white;
+    transition: .5s;
+}
+.icon i:hover{
+    color: turquoise;
+    transform: scale(.8);
+}
+
+.contactus-section{
+    width: 800px;
+    height: 510px;
+    background-color: burlywood;
+}
+.contact-head{
+    width: 130px;
+}
+.contact-head h5{
+    border-bottom: 3px solid white;
+}
+.contact-full{
+    width: 500px;
+    height: 60px;
+}
+.contact-1{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+}
+.contact-1 .p1{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 50px;
+    
+}
+.contact-1 .p2{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.contact-icon i{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.contact-input{
+    width: 350px;
+}
+
+.footer{
+    width: 800px;
+    height: 70px;
+    
+}
+.footer-icon i{
+    color: white;
+    font-size: 25px;
+    transition: .5s;
+}
+.footer-icon i:hover{
+    color: springgreen;
+    transform: scale(.8);
+}
